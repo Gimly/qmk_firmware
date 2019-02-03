@@ -16,6 +16,7 @@
 *.swp
 tags
 *~
+obj/
 build/
 .build/
 *.bak
