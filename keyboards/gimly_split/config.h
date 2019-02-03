@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x1881
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Xavier Hahn
-#define PRODUCT         gimly-split
+#define PRODUCT         gimly_split
 #define DESCRIPTION     A custom TKL split keyboard
 
 /* key matrix size */
