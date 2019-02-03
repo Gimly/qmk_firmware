@@ -1,5 +1,5 @@
 /*
-Copyright 2019 REPLACE_WITH_YOUR_NAME
+Copyright 2019 Gimly81
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -21,15 +21,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x0000
+#define PRODUCT_ID      0x1881
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    You
+#define MANUFACTURER    Xavier Hahn
 #define PRODUCT         gimly-split
-#define DESCRIPTION     A custom keyboard
+#define DESCRIPTION     A custom TKL split keyboard
 
 /* key matrix size */
-#define MATRIX_ROWS 2
-#define MATRIX_COLS 3
+#define MATRIX_ROWS 12
+#define MATRIX_COLS 11
 
 /*
  * Keyboard Matrix Assignments
@@ -41,9 +41,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-#define MATRIX_ROW_PINS { D0, D5 }
-#define MATRIX_COL_PINS { F1, F0, B0 }
-#define UNUSED_PINS
+#define MATRIX_ROW_PINS { F0, F1, F4, F5, F6, F7 } // Left
+#define MATRIX_COL_PINS { C6, C7, D6, B4, B5, B6, D7, D0, D1, D2, D3 } // Left
+#define UNUSED_PINS { D0, D1, D2, D3 }
+
+// #define MATRIX_ROW_PINS { F0, F1, F4, F5, F6, F7 } // Right
+// #define MATRIX_COL_PINS { D0, D1, D2, D3, C6, C7, D6, D7, B4, B5, B6 } // Right
 
 /* COL2ROW, ROW2COL, or CUSTOM_MATRIX */
 #define DIODE_DIRECTION COL2ROW
@@ -51,7 +54,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
  */
-#define SOFT_SERIAL_PIN D0 // or D1, D2, D3, E6
+#define SOFT_SERIAL_PIN B3 // or D1, D2, D3, E6
 
 // #define BACKLIGHT_PIN B7
 // #define BACKLIGHT_BREATHING
