@@ -32,6 +32,7 @@ bool is_keyboard_left(void) {
   #endif
 }
 
+__attribute__((weak))
 bool is_keyboard_master(void)
 {
 #ifdef __AVR__
