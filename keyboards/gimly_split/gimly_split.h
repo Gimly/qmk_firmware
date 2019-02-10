@@ -34,16 +34,32 @@
 	L500, L501,       L503, L504,               R507, R508,       R510, R511,       R513, R514, R515, R516, R517  \
 	) \
 { \
-    { L000,  KC_NO, L002,  L003,  L004,  L005,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO }, \
-    { L100,  L101,  L102,  L103,  L104,  L105,  L106,  KC_NO, KC_NO, KC_NO, KC_NO }, \
-    { L200,  L201,  L202,  L203,  KC_NO, L205,  L206,  KC_NO, KC_NO, KC_NO, KC_NO }, \
-    { L300,  L301,  L302,  L303,  KC_NO, L305,  L306,  KC_NO, KC_NO, KC_NO, KC_NO }, \
-    { L400,  L401,  L402,  L403,  L404,  L405,  L406,  KC_NO, KC_NO, KC_NO, KC_NO }, \
-    { L500,  L501,  KC_NO, L503,  L504,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO }, \
-    { R007,  R008,  R009,  R010,  R011,  R012,  R013,  R014,  R015,  R016,  R017  }, \
-    { R107,  R108,  R109,  R110,  R111,  R112,  R113,  KC_NO, R115,  R116,  R117  }, \
-    { R207,  R208,  R209,  R210,  R211,  R212,  R213,  R214,  R215,  R216,  R217  }, \
-    { R307,  R308,  R309,  R310,  R311,  R312,  R313,  KC_NO, KC_NO, KC_NO, KC_NO }, \
-    { R407,  R408,  R409,  R410,  R411,  KC_NO, R413,  KC_NO, KC_NO, R416,  KC_NO }, \
-    { R507,  R508,  KC_NO, R510,  R511,  KC_NO, R513,  R514,  R515,  R516,  R517  }  \
+    { L000,  KC_NO, L002,  L003,  L004,  L005,  KC_NO, KC_NO }, \
+    { L100,  L101,  L102,  L103,  L104,  L105,  L106,  KC_NO }, \
+    { L200,  L201,  L202,  L203,  KC_NO, L205,  L206,  KC_NO }, \
+    { L300,  L301,  L302,  L303,  KC_NO, L305,  L306,  KC_NO }, \
+    { L400,  L401,  L402,  L403,  L404,  L405,  L406,  KC_NO }, \
+    { L500,  L501,  KC_NO, L503,  L504,  KC_NO, KC_NO, KC_NO }, \
+    { R007,  R008,  R009,  R010,  R011,  R012,  R013,  R014  }, \
+    { R107,  R108,  R109,  R110,  R111,  R112,  R113,  KC_NO  }, \
+    { R207,  R208,  R209,  R210,  R211,  R212,  R213,  R214  }, \
+    { R307,  R308,  R309,  R310,  R311,  R312,  R313,  KC_NO }, \
+    { R407,  R408,  R409,  R410,  R411,  KC_NO, R413,  KC_NO }, \
+    { R507,  R508,  KC_NO, R510,  R511,  KC_NO, R513,  R514  }  \
 }
+
+
+// {
+//     { L000,  KC_NO, L002,  L003,  L004,  L005,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO },
+//     { L100,  L101,  L102,  L103,  L104,  L105,  L106,  KC_NO, KC_NO, KC_NO, KC_NO },
+//     { L200,  L201,  L202,  L203,  KC_NO, L205,  L206,  KC_NO, KC_NO, KC_NO, KC_NO },
+//     { L300,  L301,  L302,  L303,  KC_NO, L305,  L306,  KC_NO, KC_NO, KC_NO, KC_NO },
+//     { L400,  L401,  L402,  L403,  L404,  L405,  L406,  KC_NO, KC_NO, KC_NO, KC_NO },
+//     { L500,  L501,  KC_NO, L503,  L504,  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO },
+//     { R007,  R008,  R009,  R010,  R011,  R012,  R013,  R014,  R015,  R016,  R017  },
+//     { R107,  R108,  R109,  R110,  R111,  R112,  R113,  KC_NO, R115,  R116,  R117  },
+//     { R207,  R208,  R209,  R210,  R211,  R212,  R213,  R214,  R215,  R216,  R217  },
+//     { R307,  R308,  R309,  R310,  R311,  R312,  R313,  KC_NO, KC_NO, KC_NO, KC_NO },
+//     { R407,  R408,  R409,  R410,  R411,  KC_NO, R413,  KC_NO, KC_NO, R416,  KC_NO },
+//     { R507,  R508,  KC_NO, R510,  R511,  KC_NO, R513,  R514,  R515,  R516,  R517  }
+// }

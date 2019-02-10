@@ -15,6 +15,7 @@
  */
 
 #include "gimly_split.h"
+#include <print.h>
 
 void matrix_init_kb(void) {
 	// put your keyboard start-up code here
@@ -41,4 +42,9 @@ void led_set_kb(uint8_t usb_led) {
 	// put your keyboard LED indicator (ex: Caps Lock LED) toggling code here
 
 	led_set_user(usb_led);
+}
+
+bool is_keyboard_master(void)
+{
+  return true;
 }

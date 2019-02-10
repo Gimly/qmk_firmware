@@ -29,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* key matrix size */
 #define MATRIX_ROWS 12
-#define MATRIX_COLS 11
+#define MATRIX_COLS 8
 
 /*
  * Keyboard Matrix Assignments
@@ -41,22 +41,23 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-// #define MATRIX_ROW_PINS { F0, F1, F4, F5, F6, F7 } // Left
-// #define MATRIX_COL_PINS { C6, C7, D6, B4, B5, B6, D7, D0, D1, D2, D3 } // Left
-// #define UNUSED_PINS { D0, D1, D2, D3 }
+#define MATRIX_ROW_PINS { F0, F1, F4, F5, F6, F7 } // Left
+#define MATRIX_COL_PINS { C6, C7, D6, B4, B5, B6, D7, B0 }//, D1, D2, D3 } // Left
+#define UNUSED_PINS { B0 }//, D1, D2, D3 }
 
-#define MATRIX_ROW_PINS { F0, F1, F4, F5, F6, F7 } // Right
-#define MATRIX_COL_PINS { D0, D1, D2, D3, C6, C7, D6, D7, B4, B5, B6 } // Right
+// #define MATRIX_ROW_PINS { F0, F1, F4, F5, F6, F7 } // Right
+// #define MATRIX_COL_PINS { B0, B1, B7, B3, C6, C7, D6, D7}//, B4, B5, B6 } // Right
 
 /* COL2ROW, ROW2COL, or CUSTOM_MATRIX */
 #define DIODE_DIRECTION COL2ROW
 
+#define USE_I2C
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
  */
-#define SOFT_SERIAL_PIN E6 // or D1, D2, D3, E6
+// #define SOFT_SERIAL_PIN D1 // or D1, D2, D3, E6
 
-#define MASTER_LEFT
+// #define I2C_MASTER_RIGHT
 
 // #define BACKLIGHT_PIN B7
 // #define BACKLIGHT_BREATHING
