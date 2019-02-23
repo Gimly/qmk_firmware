@@ -46,5 +46,5 @@ void led_set_kb(uint8_t usb_led) {
 
 bool is_keyboard_master(void)
 {
-  return true;
+  return false;
 }
