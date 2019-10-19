@@ -172,7 +172,7 @@ Appuyer sur n'importe quelle touche en mode veille devrait sortir l'ordinateur d
 
 ## Vous utilisez un Arduino ?
 
-**Faites attention que le nommage des pin d'un Arduino ne diffère pas de la puce**. Par exemple, la pin `D0` n'est pas `PD0`. Vérifiez le circuit avec la fiche technique.
+**Faites attention au fait que le nommage des pin d'un Arduino diffère de la puce**. Par exemple, la pin `D0` n'est pas `PD0`. Vérifiez le circuit avec la fiche technique.
 
 - http://arduino.cc/en/uploads/Main/arduino-leonardo-schematic_3b.pdf
 - http://arduino.cc/en/uploads/Main/arduino-micro-schematic.pdf
