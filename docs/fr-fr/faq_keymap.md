@@ -59,7 +59,7 @@ Pour les touches de modification et les actions de calque, vous devez placer `KC
 
 ## Support de touche à verrouillage mécanique
 
-Cette fonctionnalité permet l'usage de *touches à verrouillage mécanique* comme [ces interupteurs Alps](http://deskthority.net/wiki/Alps_SKCL_Lock). Vous pouvez l'activer en ajoutant ceci à votre `config.h` :
+Cette fonctionnalité permet l'usage de *touches à verrouillage mécanique* comme [ces interrupteurs Alps](http://deskthority.net/wiki/Alps_SKCL_Lock). Vous pouvez l'activer en ajoutant ceci à votre `config.h` :
 
 ```
 #define LOCKING_SUPPORT_ENABLE
